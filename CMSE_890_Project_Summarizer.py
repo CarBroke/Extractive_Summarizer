@@ -9,6 +9,8 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 from sklearn.metrics import precision_score, recall_score, f1_score
 from summarizer import Summarizer
 
+nltk.download('vader_lexicon')
+nltk.download('punkt')
 st.title("Text Summarizer")
 
 text = st.text_area("Enter your text here:")
