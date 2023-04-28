@@ -1,6 +1,6 @@
 bert_extractive_summarizer==0.10.1
 Bio==1.5.9
-biopython==1.79
+biopython==1.80
 matplotlib==3.4.3
 networkx==2.6.3
 nltk==3.6.5
