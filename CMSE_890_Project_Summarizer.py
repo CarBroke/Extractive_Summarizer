@@ -11,6 +11,7 @@ from summarizer import Summarizer
 
 nltk.download('vader_lexicon')
 nltk.download('punkt')
+nltk.download('stopwords')
 st.title("Text Summarizer")
 
 text = st.text_area("Enter your text here:")
